@@ -14,8 +14,15 @@
         "sqlite3": "5.0.0"
     },
     "scripts": {
-        "start": "npm cds run",
+        "dbbuild": "cds build && cd ./db && npm start",
+        "userbuild": "cds build && cd ./user_db && npm start",
+        "srv": "cds build && cd ./srv && npm start",
         "env": "cp ./default-env.json ./db/default-env.json && cp ./default-env.json ./srv/default-env.json",
+        "start": "cds run",
+        "watch": "cds watch",
+        "mocha": "npx mocha || echo",
+        "jest": "npx jest --verbose",
+        "test": "npm run jest -s",
         "build": "cds build/all --clean"
     },
     "cds": {

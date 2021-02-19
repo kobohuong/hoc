@@ -21,7 +21,7 @@ modules:
  - name: hoc-srv
  # ------------------------------------------------------------
    type: nodejs
-   path: gen/srv
+   path: srv
    requires:
     # Resources extracted from CAP configuration
     - name: hoc-db
