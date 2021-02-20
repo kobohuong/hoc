@@ -98,7 +98,7 @@ context sap.common_countries {
 
 context opensap.common {
     type BusinessKey : String(10);
-    type Sdate : DateTime;
+    type SDate : DateTime;
 
     type AmountT : Decimal(15, 2)@(
         Semantics.amount.currencyCode : 'CURRENCY_code',
@@ -119,7 +119,7 @@ context opensap.common {
         Cancelled  = 'C';
     };
 
-    abstract entity Ammount {
+    abstract entity Amount {
         currency    : Currency;
         grossAmount : AmountT;
         netAmount   : AmountT;
