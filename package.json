@@ -51,6 +51,9 @@
                 }
             ]
         },
+        "features": {
+            "snapi":true
+        },
         "hana": {
             "deploy-format": "hdbtable"
         },
