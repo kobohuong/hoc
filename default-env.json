@@ -1,7 +1,13 @@
 {
+    "SERVICE_REPLACEMENTS":[
+        {
+            "key": "ServiceName_1",
+            "service": "CROSS_SCHEMA_BARMER"
+        }
+    ],
 	"VCAP_SERVICES": {
 		"hana": [
-			{
+			{                
 				"name": "hoc-db",
 				"instance_name": "hoc-db",
 				"label": "hana",
@@ -26,6 +32,25 @@
 					"pooling": true
 				}
 			}
-		]
+        ],
+        "user-provides": [
+            {
+                "label":"user-provided",
+                "name": "CROSS_SCHEMA_BARMER",
+                "tags": [],
+                "instance_name":"CROSS_SCHEMA_BARMER",
+                "binding_name":null,
+                "credentials": {
+                    "password":"700Kato1",
+                    "schema":"BARMER",
+                    "tags": [
+                        "hana"
+                    ],
+                    "user":"bsu00001"
+                },
+                "syslog_drain_url":"",
+                "volume_mounts":[]
+            }
+        ]
 	}
 }

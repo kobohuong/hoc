@@ -1,0 +1,14 @@
+{
+    "ServiceName_1": {
+        "object_owner": {
+            "roles": [
+                "BARMER_CONTAINER_ACCESS"
+            ]
+        },
+        "application_user": {
+            "roles": [
+                "BARMER_CONTAINER_ACCESS"
+            ]
+        }        
+    }
+}

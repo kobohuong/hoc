@@ -55,4 +55,13 @@ resources:
    properties:
      hdi-service-name: ${service-name}
 
+# ------------------------------------------------------------
+ - name: cross-container-server-1
+# ------------------------------------------------------------
+   type: org.cloudfoundry.existing-service    
+   parameters:
+     service-name: CROSS_SCHEMA_BARMER
+   properties:
+     ServiceName_1: ${service-name}
+
 
