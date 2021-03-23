@@ -1,29 +1,27 @@
-# CAP hoc
-_out
+**/gen/
+**/edmx/
 *.db
-connection.properties
-default-*.json
-gen/
-node_modules/
-target/
+schema.sql
+default-env.json
 
-# Web IDE, App Studio
-.che/
-.gen/
+**/bin/
+**/target/
+.flattened-pom.xml
+.classpath
+.project
+.settings
 
-# MTA
-*_mta_build_tmp
+**/node/
+**/node_modules/
+
+**/.mta/
 *.mtar
-mta_archives/
 
-# Other
-.DS_Store
-*.orig
-*.log
-
+*.log*
+gc_history*
+hs_err*
+*.tgz
 *.iml
-*.flattened-pom.xml
 
-# IDEs
-# .vscode
-# .idea
+.vscode
+.idea
