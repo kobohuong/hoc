@@ -41,7 +41,7 @@
                 "instance_name":"CROSS_SCHEMA_BARMER",
                 "binding_name":null,
                 "credentials": {
-                    "password":"700Kato1",
+                    "password":"Password1",
                     "schema":"BARMER",
                     "tags": [
                         "hana"
