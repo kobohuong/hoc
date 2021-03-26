@@ -1,0 +1,10 @@
+{
+    "role": {
+        "name": "vap",
+        "schema_analytic_privileges": [
+            {
+                "privileges": ["VAP_VIEW_PRIVILEGE"]
+            }
+        ]
+    }
+}

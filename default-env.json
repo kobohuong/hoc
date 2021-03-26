@@ -51,6 +51,32 @@
                 "syslog_drain_url":"",
                 "volume_mounts":[]
             }
+        ],
+        "xsuaa": [
+            {
+                "name": "hoc-xsuaa-service",
+                "label": "xsuaa",
+                "tags": [
+                    "xsuaa"
+                ],
+                "credentials": 
+                {
+                    "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+                    "clientid": "sb-hoc!t52815",
+                    "clientsecret": "LTkAeA7+9h/BR4cB24fiF8XEAR0=",
+                    "identityzone": "9870af58trial",
+                    "identityzoneid": "93db2672-85c7-406f-8e00-bc4d23e40bb7",
+                    "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+                    "subaccountid": "93db2672-85c7-406f-8e00-bc4d23e40bb7",
+                    "tenantid": "93db2672-85c7-406f-8e00-bc4d23e40bb7",
+                    "tenantmode": "shared",
+                    "uaadomain": "authentication.eu10.hana.ondemand.com",
+                    "url": "https://9870af58trial.authentication.eu10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxOodDfSb2U27wQBIHapJhA+d2iXIbOvdxd1sij9okTRer+kHzkvp0yNubaFSYkWyHG2AduZMfEzMjstOuT+Cps0Hfqi1alHk40N7CcG+khnj4y79ymDxoCfq9PAr7rW51qrER4jBB6Gqy4g7/TL96OLSSmHSWsG6cGCmRqsUnnn38TRatbzOO1OQAz4u5aRb1n9mgW62qnWWzLPV6wsMZ581V24H/r+PD3P2lTs1mAm6OxwFbl0goikh4ynUTAwwIGr7A+EHhKL3/JLf7bCvHvCPqPL5h5+PMHuQ5yDVvOZOG+TC/UW5gANBkkRuncAyLVb0yu/bryAdsAfxVmrNUQIDAQAB-----END PUBLIC KEY-----",
+                    "xsappname": "hoc!t52815",
+                    "zoneid": "93db2672-85c7-406f-8e00-bc4d23e40bb7"
+                }
+            }
         ]
-	}
+    }
 }
